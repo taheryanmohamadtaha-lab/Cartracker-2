@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سرویس خودرو</string>
+
+    <!-- عمومی -->
+    <string name="back">بازگشت</string>
+    <string name="save">ذخیره</string>
+    <string name="cancel">انصراف</string>
+    <string name="confirm">تأیید</string>
+    <string name="delete">حذف</string>
+    <string name="edit">ویرایش</string>
+    <string name="selected_desc">انتخاب‌شده</string>
+    <string name="value_none">—</string>
+    <string name="error_title">مشکلی پیش آمد</string>
+    <string name="error_generic">خواندن اطلاعات ممکن نشد. برنامه را ببندید و دوباره باز کنید.</string>
+    <string name="error_required">این فیلد الزامی است.</string>
+    <string name="error_invalid_number">عدد واردشده معتبر نیست.</string>
+    <string name="error_invalid_year">سال واردشده معتبر نیست.</string>
+    <string name="error_amounts">دست‌کم دو مورد از لیتر، قیمت هر لیتر و مبلغ کل را وارد کنید (عدد بزرگ‌تر از صفر).</string>
+    <string name="error_save_failed">ذخیره انجام نشد. دوباره تلاش کنید.</string>
+
+    <!-- واحدها -->
+    <string name="unit_liter">لیتر</string>
+    <string name="unit_km">کیلومتر</string>
+    <string name="unit_l_per_100km">لیتر در ۱۰۰ کیلومتر</string>
+    <string name="currency_toman">تومان</string>
+    <string name="currency_rial">ریال</string>
+
+    <string-array name="jalali_months">
+        <item>فروردین</item>
+        <item>اردیبهشت</item>
+        <item>خرداد</item>
+        <item>تیر</item>
+        <item>مرداد</item>
+        <item>شهریور</item>
+        <item>مهر</item>
+        <item>آبان</item>
+        <item>آذر</item>
+        <item>دی</item>
+        <item>بهمن</item>
+        <item>اسفند</item>
+    </string-array>
+
+    <!-- انتخاب‌گر تاریخ -->
+    <string name="date_picker_title">انتخاب تاریخ</string>
+    <string name="date_day">روز</string>
+    <string name="date_month">ماه</string>
+    <string name="date_year">سال</string>
+    <string name="date_today">امروز</string>
+    <string name="date_increase">افزایش</string>
+    <string name="date_decrease">کاهش</string>
+
+    <!-- ناوبری -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_fuel">سوخت</string>
+    <string name="nav_maintenance">سرویس و هزینه</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- خانه -->
+    <string name="home_title">سرویس خودرو</string>
+    <string name="home_subtitle">ردیاب مصرف سوخت و هزینه خودرو</string>
+    <string name="home_welcome">برای شروع، اولین خودروی خود را ثبت کنید. بعد از آن می‌توانید سوخت‌گیری‌ها را ثبت و مصرف را بررسی کنید.</string>
+    <string name="home_add_first_vehicle">ثبت اولین خودرو</string>
+    <string name="home_current_odometer">کیلومتر فعلی</string>
+    <string name="creator_label">سازنده</string>
+    <string name="creator_name">محمدطاها طاهریان</string>
+
+    <!-- نوع سوخت -->
+    <string name="fuel_type_petrol">بنزین</string>
+    <string name="fuel_type_diesel">گازوئیل</string>
+    <string name="fuel_type_cng">CNG</string>
+    <string name="fuel_type_bifuel">دوگانه‌سوز</string>
+
+    <!-- خودروها -->
+    <string name="vehicles_title">خودروهای من</string>
+    <string name="vehicles_manage">خودروها</string>
+    <string name="vehicles_empty_title">هنوز خودرویی ثبت نشده</string>
+    <string name="vehicles_empty_message">با دکمه زیر اولین خودروی خود را اضافه کنید.</string>
+    <string name="vehicle_add_title">افزودن خودرو</string>
+    <string name="vehicle_edit_title">ویرایش خودرو</string>
+    <string name="vehicle_active">خودروی فعال</string>
+    <string name="vehicle_name">نام خودرو (مثلاً پراید من)</string>
+    <string name="vehicle_brand">برند</string>
+    <string name="vehicle_model">مدل</string>
+    <string name="vehicle_year">سال ساخت</string>
+    <string name="vehicle_plate">پلاک</string>
+    <string name="vehicle_fuel_type">نوع سوخت</string>
+    <string name="vehicle_tank">ظرفیت باک (اختیاری)</string>
+    <string name="vehicle_initial_odometer">کیلومتر اولیه</string>
+    <string name="vehicle_color">رنگ خودرو</string>
+    <string name="vehicle_photo">عکس خودرو</string>
+    <string name="vehicle_photo_add">افزودن عکس از گالری</string>
+    <string name="vehicle_photo_remove">حذف عکس</string>
+    <string name="vehicle_delete_title">حذف خودرو؟</string>
+    <string name="vehicle_delete_message">همه سوخت‌گیری‌ها و اطلاعات این خودرو برای همیشه پاک می‌شود.</string>
+    <string name="no_vehicle_title">ابتدا یک خودرو ثبت کنید</string>
+    <string name="no_vehicle_message">برای ثبت سوخت‌گیری لازم است حداقل یک خودرو داشته باشید.</string>
+
+    <!-- سوخت -->
+    <string name="fuel_title">ثبت سوخت‌گیری</string>
+    <string name="fuel_add">ثبت سوخت‌گیری</string>
+    <string name="fuel_edit">ویرایش سوخت‌گیری</string>
+    <string name="fuel_saved">ثبت شد!</string>
+    <string name="fuel_not_found">این سوخت‌گیری پیدا نشد.</string>
+    <string name="fuel_empty_title">هنوز سوخت‌گیری ثبت نشده</string>
+    <string name="fuel_empty_message">اولین سوخت‌گیری را ثبت کنید. بعد از دو بار «باک پر»، مصرف سوخت محاسبه می‌شود.</string>
+    <string name="fuel_date">تاریخ</string>
+    <string name="fuel_odometer">کیلومتر</string>
+    <string name="fuel_last_odometer">آخرین کیلومتر ثبت‌شده: %1$s</string>
+    <string name="fuel_liters">مقدار سوخت</string>
+    <string name="fuel_price_per_liter">قیمت هر لیتر</string>
+    <string name="fuel_total">مبلغ کل</string>
+    <string name="fuel_amounts_hint">دو مورد از سه مورد زیر را وارد کنید؛ مورد سوم خودکار محاسبه می‌شود.</string>
+    <string name="fuel_full_tank">باک پر</string>
+    <string name="fuel_partial">سوخت‌گیری ناقص</string>
+    <string name="fuel_full_tank_hint">برای محاسبه دقیق مصرف، فقط وقتی باک را تا سر پر کردید روشن بگذارید.</string>
+    <string name="fuel_station">نام جایگاه (اختیاری)</string>
+    <string name="fuel_note">یادداشت (اختیاری)</string>
+    <string name="fuel_distance_since_previous">فاصله از قبلی</string>
+    <string name="fuel_delete_title">حذف سوخت‌گیری؟</string>
+    <string name="fuel_delete_message">این ثبت برای همیشه پاک می‌شود.</string>
+    <string name="fuel_warn_below_previous">کیلومتر واردشده از ثبت قبلی (%1$s) کمتر است. اگر درست است ذخیره کنید.</string>
+    <string name="fuel_warn_above_next">کیلومتر واردشده از ثبت بعدی (%1$s) بیشتر است.</string>
+    <string name="fuel_warn_below_initial">کیلومتر واردشده از کیلومتر اولیه خودرو (%1$s) کمتر است.</string>
+    <string name="fuel_warn_over_tank">مقدار سوخت از ظرفیت باک (%1$s لیتر) بیشتر است.</string>
+
+    <!-- آمار -->
+    <string name="fuel_summary_title">خلاصه مصرف</string>
+    <string name="fuel_summary_need_two_full">برای محاسبه مصرف، دست‌کم دو سوخت‌گیری «باک پر» لازم است.</string>
+    <string name="stat_average_consumption">میانگین مصرف</string>
+    <string name="stat_last_consumption">آخرین مصرف</string>
+    <string name="stat_consumption">مصرف</string>
+    <string name="stat_cost_per_km">هزینه هر کیلومتر</string>
+    <string name="stat_total_cost">مجموع هزینه سوخت</string>
+    <string name="stat_total_liters">مجموع سوخت</string>
+
+    <!-- سرویس و هزینه (مرحله ۴) -->
+    <string name="maintenance_title">سرویس‌ها و هزینه‌ها</string>
+    <string name="maintenance_coming_soon">این بخش در مرحله ۴ ساخته می‌شود.</string>
+
+    <!-- تنظیمات -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_mode_title">حالت نمایش</string>
+    <string name="mode_system">مطابق سیستم</string>
+    <string name="mode_light">روز</string>
+    <string name="mode_dark">شب</string>
+    <string name="settings_theme_title">تم رنگی</string>
+    <string name="theme_neon_city">شهر نئونی شب</string>
+    <string name="theme_sakura">گل‌های شکوفه بهاری</string>
+    <string name="theme_coast_sunset">غروب جاده ساحلی</string>
+    <string name="theme_starry_sky">آسمان ستاره‌ای</string>
+    <string name="theme_dream_forest">جنگل رؤیایی</string>
+    <string name="settings_digits_title">نوع اعداد</string>
+    <string name="digits_persian">فارسی (۱۲۳)</string>
+    <string name="digits_english">انگلیسی (123)</string>
+    <string name="settings_currency_title">واحد پول</string>
+    <string name="settings_units_note">مسافت به کیلومتر و سوخت به لیتر نمایش داده می‌شود. تاریخ‌ها همیشه شمسی است.</string>
+    <string name="settings_reduce_title">کاهش انیمیشن</string>
+    <string name="settings_reduce_desc">باتری کمتر مصرف می‌شود و روی گوشی‌های ضعیف روان‌تر است.</string>
+    <string name="settings_about_title">درباره برنامه</string>
+    <string name="about_version">نسخه ۰٫۴ (مرحله ۴)</string>
+
+    <!-- مرحله ۴ -->
+    <string name="svc_engine_oil">تعویض روغن موتور</string>
+    <string name="svc_oil_filter">فیلتر روغن</string>
+    <string name="svc_air_filter">فیلتر هوا</string>
+    <string name="svc_cabin_filter">فیلتر کابین</string>
+    <string name="svc_fuel_filter">فیلتر بنزین/گازوئیل</string>
+    <string name="svc_gearbox_oil">روغن گیربکس</string>
+    <string name="svc_diff_oil">روغن دیفرانسیل</string>
+    <string name="svc_power_steering_oil">روغن هیدرولیک فرمان</string>
+    <string name="svc_coolant">مایع خنک‌کننده (ضدیخ)</string>
+    <string name="svc_brake_fluid">روغن ترمز</string>
+    <string name="svc_washer_fluid">مایع شیشه‌شوی</string>
+    <string name="svc_brake_pads_front">لنت ترمز جلو</string>
+    <string name="svc_brake_pads_rear">لنت ترمز عقب</string>
+    <string name="svc_brake_discs">دیسک ترمز</string>
+    <string name="svc_spark_plugs">شمع</string>
+    <string name="svc_timing_belt">تسمه تایم</string>
+    <string name="svc_alternator_belt">تسمه دینام</string>
+    <string name="svc_tensioner_bearings">بلبرینگ و تسمه‌سفت‌کن</string>
+    <string name="svc_battery">باتری</string>
+    <string name="svc_tires_replace">تعویض لاستیک</string>
+    <string name="svc_tires_rotate">جابه‌جایی لاستیک‌ها</string>
+    <string name="svc_tires_balance">بالانس و تنظیم زوایای چرخ</string>
+    <string name="svc_tire_pressure">کنترل باد لاستیک</string>
+    <string name="svc_wipers">تیغه برف‌پاک‌کن</string>
+    <string name="svc_shock_absorbers">کمک‌فنر</string>
+    <string name="svc_control_arms">طبق و بوش‌ها</string>
+    <string name="svc_lights_fuses">چراغ‌ها و فیوزها</string>
+    <string name="svc_ac_gas">گاز کولر</string>
+    <string name="svc_ac_service">سرویس کولر</string>
+    <string name="svc_wash_wax">شستشو و واکس</string>
+    <string name="expense_repair">تعمیرات</string>
+    <string name="expense_part">قطعه</string>
+    <string name="expense_insurance">بیمه</string>
+    <string name="expense_inspection">معاینه فنی</string>
+    <string name="expense_annual_tax">عوارض سالانه</string>
+    <string name="expense_highway_toll">عوارض آزادراه</string>
+    <string name="expense_parking">پارکینگ</string>
+    <string name="expense_fine">جریمه</string>
+    <string name="expense_wash">کارواش</string>
+    <string name="expense_accessory">لوازم جانبی</string>
+    <string name="expense_other">سایر</string>
+    <string name="repair_engine">موتور</string>
+    <string name="repair_electrical">برق</string>
+    <string name="repair_body">بدنه</string>
+    <string name="repair_suspension">جلوبندی</string>
+    <string name="repair_brake">ترمز</string>
+    <string name="repair_transmission">گیربکس و انتقال قدرت</string>
+    <string name="repair_cooling">خنک‌کاری</string>
+    <string name="repair_other">سایر</string>
+    <string name="insurance_third_party">شخص ثالث</string>
+    <string name="insurance_body">بدنه</string>
+    <string name="attachments_title">عکس فاکتور</string>
+    <string name="attachments_add">افزودن عکس</string>
+    <string name="no_vehicle_message_maintenance">برای ثبت سرویس و هزینه، ابتدا یک خودرو اضافه کنید.</string>
+    <string name="section_services">سرویس‌ها</string>
+    <string name="section_expenses">هزینه‌ها</string>
+    <string name="dues_title">سررسیدها</string>
+    <string name="due_status_overdue">عقب‌افتاده</string>
+    <string name="due_status_soon">نزدیک سررسید</string>
+    <string name="due_status_ok">در موعد</string>
+    <string name="due_remaining_km">%1$s کیلومتر مانده</string>
+    <string name="due_overdue_km">%1$s کیلومتر گذشته</string>
+    <string name="due_remaining_days">%1$s روز مانده</string>
+    <string name="due_overdue_days">%1$s روز گذشته</string>
+    <string name="service_history_title">سابقه سرویس‌ها</string>
+    <string name="service_types_manage">مدیریت انواع سرویس</string>
+    <string name="service_empty_title">هنوز سرویسی ثبت نشده</string>
+    <string name="service_empty_message">اولین سرویس را با دکمهٔ + ثبت کنید تا سررسیدها محاسبه شوند.</string>
+    <string name="service_add">ثبت سرویس</string>
+    <string name="service_edit">ویرایش سرویس</string>
+    <string name="service_delete_title">حذف سرویس</string>
+    <string name="expense_delete_title">حذف هزینه</string>
+    <string name="record_delete_message">این مورد برای همیشه حذف می‌شود.</string>
+    <string name="service_type_unknown">نوع نامشخص</string>
+    <string name="cost_label">هزینه</string>
+    <string name="amount_label">مبلغ</string>
+    <string name="expiry_label">تاریخ انقضا</string>
+    <string name="expense_summary_title">خلاصهٔ هزینه‌ها</string>
+    <string name="expense_total">مجموع</string>
+    <string name="expense_this_month">این ماه</string>
+    <string name="filter_all">همه</string>
+    <string name="expense_empty_title">هنوز هزینه‌ای ثبت نشده</string>
+    <string name="expense_empty_message">بیمه، تعمیر، قطعه و سایر هزینه‌ها را با دکمهٔ + ثبت کنید.</string>
+    <string name="expense_add">ثبت هزینه</string>
+    <string name="expense_edit">ویرایش هزینه</string>
+    <string name="part_number_short">کد %1$s</string>
+    <string name="record_not_found">این مورد پیدا نشد.</string>
+    <string name="service_choose_type">انتخاب نوع سرویس</string>
+    <string name="error_choose_type">نوع سرویس را انتخاب کنید.</string>
+    <string name="service_place">محل سرویس (اختیاری)</string>
+    <string name="current_odometer_hint">آخرین کیلومتر ثبت‌شده: %1$s</string>
+    <string name="service_next_due_title">سررسید بعدی (پیشنهادی)</string>
+    <string name="service_next_due_km">در %1$s %2$s</string>
+    <string name="service_next_due_date">تا تاریخ %1$s</string>
+    <string name="service_next_due_note">بر اساس فاصلهٔ پیش‌فرض این نوع سرویس؛ در مدیریت انواع سرویس قابل تغییر است.</string>
+    <string name="interval_km">هر %1$s کیلومتر</string>
+    <string name="interval_months">هر %1$s ماه</string>
+    <string name="interval_none">بدون فاصلهٔ پیش‌فرض</string>
+    <string name="expense_category">دستهٔ هزینه</string>
+    <string name="expense_title_required">عنوان</string>
+    <string name="expense_title_optional">عنوان (اختیاری)</string>
+    <string name="odometer_optional">کیلومتر (اختیاری)</string>
+    <string name="error_percent_range">عددی بین ۰ تا ۱۰۰ وارد کنید.</string>
+    <string name="trip_tag_label">برچسب سفر (مثلاً سفر شمال)</string>
+    <string name="repair_area_label">بخش تعمیر</string>
+    <string name="part_brand">برند</string>
+    <string name="part_number">شمارهٔ قطعه</string>
+    <string name="part_warranty_months">گارانتی (ماه)</string>
+    <string name="insurance_company">شرکت بیمه</string>
+    <string name="insurance_policy_number">شمارهٔ بیمه‌نامه</string>
+    <string name="insurance_start">شروع بیمه</string>
+    <string name="insurance_end">پایان بیمه</string>
+    <string name="insurance_discount">درصد تخفیف عدم خسارت</string>
+    <string name="inspection_expiry">انقضای معاینه فنی</string>
+    <string name="service_types_title">انواع سرویس</string>
+    <string name="service_types_hint">فاصلهٔ کیلومتر و ماه برای محاسبهٔ سررسید به‌کار می‌رود. هر دو اختیاری‌اند.</string>
+    <string name="service_type_add">افزودن نوع سرویس</string>
+    <string name="service_type_edit">ویرایش نوع سرویس</string>
+    <string name="service_type_name">نام</string>
+    <string name="interval_km_label">فاصلهٔ پیش‌فرض (کیلومتر)</string>
+    <string name="interval_months_label">فاصلهٔ پیش‌فرض (ماه)</string>
+    <string name="error_duplicate_name">این نام قبلاً وجود دارد.</string>
+    <string name="service_type_delete_title">حذف نوع سرویس</string>
+    <string name="service_type_delete_message">«%1$s» حذف می‌شود. اگر سرویسی با این نوع ثبت شده باشد، فقط از فهرست انتخاب پنهان می‌شود.</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- بدنه ماشین ساده -->
+    <path
+        android:fillColor="@color/launcher_foreground"
+        android:pathData="M30,60 L34,50 Q36,44 42,44 L66,44 Q72,44 74,50 L78,60 Q80,60 80,63 L80,68 Q80,70 78,70 L30,70 Q28,70 28,68 L28,63 Q28,60 30,60 Z" />
+    <!-- چرخ‌ها -->
+    <path
+        android:fillColor="#3B2BA8"
+        android:pathData="M42,70 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#3B2BA8"
+        android:pathData="M68,70 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <!-- شیشه -->
+    <path
+        android:fillColor="#B7A8FF"
+        android:pathData="M40,52 L43,47 L53,47 L53,58 L38,58 Z" />
+    <path
+        android:fillColor="#B7A8FF"
+        android:pathData="M57,47 L65,47 L69,52 L71,58 L57,58 Z" />
+</vector>
